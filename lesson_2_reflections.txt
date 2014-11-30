@@ -4,4 +4,4 @@
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
->> Staging area is less like its own entity and more like an Intermediate step between the Working Dir. and the Repository. A waiting area before you board a plane. Each file add is like a passenger waiting on the flight. they haven't commited to the flight yet and can still back out (reset) before getting on the plane. (probs. a dumb analogy, but you get the idea.)  
+>> Staging area is less like its own entity and more like an Intermediate step between the Working Dir. and the Repository. A waiting area before you board a plane. Each file add is like a passenger waiting on the flight. they haven't committed to the flight yet and can still back out (reset) before getting on the plane. (probs. a dumb analogy, but you get the idea.)  
