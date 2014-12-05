@@ -6,7 +6,7 @@
 
 >> Staging area is less like its own entity and more like an Intermediate step between the Working Dir. and the Repository. A waiting area before you board a plane. Each file add is like a passenger waiting on the flight. they haven't committed to the flight yet and can still back out (reset) before getting on the plane. (probs. a dumb analogy, but you get the idea.)  
 
-3. How can you use the staging aread to make sure you have one commit per logical change?
+3. How can you use the staging area to make sure you have one commit per logical change?
 
 >> You can use 'git diff --staged' to compare the Staging Area to the latest repository commit and look at what you are adding to see if its just a single logical change
 
@@ -17,3 +17,13 @@
 5. How do the diagrams help you visualize the branch structure?
  
  >> Allows you to quickly and easily see your commit tree structure and where you've branched.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+>> git merge branch1 branch2 automatically combines the two branches, creating a new commit. Comparisons are made between the two branches (starting at the node when the branch was created) and merged together. The diagram makes a merge clear on what has happened.
+
+7. What are the pros and cons of Git's automatic merging vs. always doing manual merging?
+
+>> Pros: being able to do automatic merging allows you to say time and hassle when you are combining two branches together (that have no conflicts) Merging Manually would be very tedious.
+   Manual Merging would give you more control over what is merged and what is not, but would require a lot more work, than just letting git do most of the leg work for you.
+
