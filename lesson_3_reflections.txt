@@ -4,3 +4,6 @@
    When you want to colaborate with others on GitHub with your project.
    Good as a remote back up as well.
    
+2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+>> Hmm... Well if your local repository is the lastest version and the most up-to-date history of your project's commits, and GitHub automatically updated your local repo, it would overwrite your latest with an older commit history. You would lose your data.
