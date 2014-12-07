@@ -17,3 +17,6 @@
 
 		Branches - happens on a single repository. Used to test / have different version of your project (i.e. master, coins branches)
 		
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+>> Your able to see the difference between your local master and your previous GitHub history (or after git fetch your updated remote history), that way you can tell if your local remote / local commits and remote repo are up-to-date.
