@@ -7,3 +7,13 @@
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 >> Hmm... Well if your local repository is the lastest version and the most up-to-date history of your project's commits, and GitHub automatically updated your local repo, it would overwrite your latest with an older commit history. You would lose your data.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+>>
+		Fork - only used in the context of GitHub, copying a GitHub commit history to another. (Such as when you are collaborating on someone elses repo.)
+
+		Clones - used to remotely clone a repository from GitHub to your local machine, or cloning a local repository to another local repository
+
+		Branches - happens on a single repository. Used to test / have different version of your project (i.e. master, coins branches)
+		
