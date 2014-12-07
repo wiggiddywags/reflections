@@ -20,3 +20,7 @@
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
 >> Your able to see the difference between your local master and your previous GitHub history (or after git fetch your updated remote history), that way you can tell if your local remote / local commits and remote repo are up-to-date.
+
+5. How would you collaborate wXo using Git or GitHub? What would be easier, and what would be harder?
+
+>> In person, or via email? Maybe Google Docs. Once you know the basics using Git and GitHub would make collaboration easier. 
